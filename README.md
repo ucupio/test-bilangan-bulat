@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+diketahui: himpunan bilangan asli : [83, 1, 78, 26, 67, 54, 49,.... 8]
 
-## Getting Started
+1. algoritma jumlah inputan =
+   - buat variabel penampung dengan nilai awal 0
+   - buat looping tegantung panjangnya himpunan bilangan
+   - lalu setiap looping tambahkan variabel penampung satu per satu
+   - tampilkan / kembalikan hasil akhir variabel penampung tersebut
+2. algoritma angka terkecil =
 
-First, run the development server:
+   - buat variabel penampung dengan nilai 0
+   - buat looping sebanyak isi himpunan bilangan
+   - ketika looping masukan angka himpunan indeks sekarang sebagai nilai variabel penamping
+   - bandingkan angka berikutnya dengan angka di variabel penampung
+   - jika lebih kecil maka simpan kedalam variabel penampung
+   - tampilkan hasil akhir variabel penampung sebagai nilai terkecil
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+3. sama seperti nomer 2 cuma bandingkan mana yang lebih besar
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. algoritma mencari angka yang sama
+   - buat variabel 2 penampung dengan nilai awal array kosong /[]
+   - lalu looping sebanyak panjangnya himpunan bilangan
+   - lalu looping lagi didalamnya
+   - lalu didalam nest looping masukan kondisi jika indeks looping luar = index looping dalam maka masukan kevariabel penampung
+   - tampilkan hasilnya sebagai himpunan angka yang mempunya angka sama
+5. algotima mengurutkan dari kecil ke besar
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+   - buat variabel penampung dengan nilai awal array kosong
+   - buat variabel dengan nilai awal 0 lalu lakukan algoritma mencari angka terkecil diatas
+   - jika sudah dapat angka terkecil maka masukkan / push kedalam variabel penampung indeks ke variabel penampung angka diatas
+   - jika sudah selesain maka didapat hasil akhir himpunan yang urut dari kecil ke besar
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. algoritma bilangan ganjil dan genap
+   - buat dua variabel penampung untuk menjumlahkan bilangan ganjil dan genap
+   - buat looping sebanyak panjang himpunan
+   - jika indek sekarang dibagi 2 = 0 maka angka genap dan tambahkan ke nulai variabel penampung genap
+   - jika tidak berati angka ganjil dan tambahkan ke variabel penampung ganjil
+   - tampilkan kedua variabel penampung tersebut sebut sebagai jumlah ganjil dan jumlah genap
+7. algoritma menampilkan himpunan bilangan ganjil dan genap
+   - sama dengan no 6 tinggal variabel penampungnya dijadikan array bukan dijumlahkan
